@@ -1,0 +1,885 @@
+*{
+    padding: 0; margin: 0; 
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Oswald", sans-serif ; position: relative;  height: 3500px; 
+}
+
+i{
+    color:  #01982e; font-size: 30px;
+}
+
+.back-img{
+    background-image: url(../img/wp5735293-carti-computer-wallpapers.png);
+    width: 100%; height: 100vh; background-size: cover; background-position: center;
+    position: relative;  
+}
+
+.header{
+ position: fixed; height: 50px; background-color: rgba(182, 181, 181, 0.7); width: 100%;; z-index: 1000;
+}
+
+.logo-header {
+    position: absolute ;
+    height: 100%; width: 45px;
+    margin-left: 145px ;
+    float: left;
+}
+
+.ul-home a{
+   position: relative ; color: rgb(0, 0, 0); opacity: 1; 
+}
+
+.ul-home a::after {
+    position: absolute;
+    content: "";
+    width: 0px; height: 3.5px; 
+    left: 0;
+    bottom: -4px;
+    background-color: rgb(0, 0, 0);
+    transition: 0.5s;
+}
+
+.ul-home .a2:hover::after {
+    width: 70%; 
+}
+
+.ul-home .a3:hover::after {
+    width: 81%; 
+}
+
+.ul-home .a4:hover::after {
+    width: 83%; 
+}
+
+.ul-home .a5:hover::after {
+    width: 82%; 
+}
+
+.ul-home .a6:hover::after {
+    width: 68%; 
+}
+
+.ul-home .a7:hover::after {
+    width: 75%; 
+}
+
+.ul-home .a1{
+    position: relative; color: rgb(0, 0, 0);
+}
+
+.ul-home .a1::after{
+    position: absolute;
+     width: 65%; height: 3.5px;
+     bottom: -4px;
+}
+
+
+
+.ul-home{
+    float: left; margin: 8px 0px 0px 800px; color: rgb(12, 24, 24); list-style: none; font-size: 20px;
+}
+
+.ul-home li{
+    display:inline-block; margin-right: 20px ; 
+}
+
+
+.home-items{
+    color: rgba(255, 255, 255);
+    position: absolute;
+    top: 50%; left: 50%; 
+    transform: translate(-50%,-50%);
+    text-align: center;
+    font-size: 40px;
+ }
+
+.btn1{
+    font-family: "Rubik" , sans-serif; font-weight: 500;
+    margin-top: 15px; margin-right: 10px;
+    border: none; height: 45px; width: 120px; border-radius: 5px;
+}
+
+.btn1 .first-a-1stsection{
+    text-decoration: none; color: black;
+}
+
+.btn2{
+    font-family: "Rubik" , sans-serif; font-weight: 500;
+    margin-top: 15px; 
+    border: none; height: 45px; width: 120px; border-radius: 5px;
+    background-color: rgb(177, 172, 172); color: rgb(255, 255, 255);
+}
+
+.btn2 .second-a-1stsection{
+    text-decoration: none; color: white ;
+}
+
+.overlay{
+   position: absolute; height: 100%; width: 100%; background-color: rgba(0, 0, 0, 0.5);
+}
+
+.btn1:hover{
+    background-color: rgb(202, 199, 199, 0.9);
+}
+
+.btn2:hover{
+   background-color: rgb(153, 150, 150, 0.9);
+}
+
+.p1-1stsection{
+    margin-top: -15px;
+}
+
+/* first section finishes here */
+
+.h1-2ndsection{
+    text-align: center;   font-size: 40px;   padding-top: 90px ;
+}
+
+.hr-2ndsection{
+    background-color: #01982e; width: 60px; height: 3.5px; margin: auto; margin-top: 10px; border: none;
+}
+
+.second-section-container{
+    width: 87%; margin: auto; position: absolute; position: relative; margin-top: 90px; height: 80vh;
+}
+
+.items-parent-2ndsection{
+    overflow: auto; 
+    margin: 2.5% 0 0 0; padding: 30px;
+}
+
+.item-2ndsection{
+    float: left;  width: 29%; border: solid; border-color: black; height: 200px; border-width: 1px;  position: relative;
+}
+
+.item2nd-2ndsection{
+    margin: 0px 6.5%; 
+}
+
+.item-2ndsection-content{
+    text-align: center; font-size: 20px;  margin: 25px 0 0 107px; position: absolute; opacity: 1; z-index: 2;
+}
+
+.item-2ndsection::after{
+     position: absolute; content: "";
+     width: 0; height: 0; 
+     top: 0; left: 0;
+     opacity: 0; background-color: rgb(0, 0, 0);
+}
+
+.item-2ndsection:hover::after{
+    width: 100%; height: 100%;
+    opacity: 0.8; color: #000;
+    transition: 0.8s;
+}
+
+.item-2ndsection-content:hover{
+    position: absolute; opacity: 1; z-index: 2 ; 
+}
+
+.item-2ndsection:hover h1 {
+    color: aliceblue; 
+}
+
+.item-2ndsection:hover p {
+    color: rgb(143, 143, 143); 
+}
+
+.item-2ndsection p{
+    font-weight: lighter; margin-top: -5px; 
+}
+
+.item-2ndsection-content a{
+    text-decoration: none; color:#01982e; 
+}
+
+/* second section finishes here */
+
+.background-color-3rdsection{
+    background-color: rgb(247, 247, 247); height: 1000px;
+}
+
+.h1-3rdsection{
+    text-align: center; margin: 95px 0 0 0 ; font-size: 40px; padding-top: 60px;
+}
+                   
+.hr-3rdsection{
+    background-color: #01982e; width: 60px; height: 3.5px; margin: auto; margin-top: 1px; border: none; 
+}
+
+.imgs-parent-3rdsection{
+    width: 80%; margin: 50px 0px 0px 245px ; position: relative; 
+}
+
+.img-3rdsection{
+ display: inline-block; position: relative; 
+}
+
+.frank-ocean{
+ margin: 0 5%; 
+}
+
+.img-3rdsection-items{
+    text-align: center; position: absolute; color: #01982e; 
+    top: 50%; left: 50%;
+    transform: translate(-50%, -70%);  opacity: 0; z-index: 6;
+}
+
+.ken-carson{
+    margin: 5% 5% 0 5%
+}
+
+.img-3rdsection::after{
+    position: absolute; content: "";
+    top: -15; left: -15;
+    width: calc(100% + 30px)  ; height: calc(100% + 30px) ; 
+    background-color: rgba(0, 0, 0, 0.7); opacity: 0;
+    z-index: 5;
+}
+
+.img-3rdsection:hover::after{
+    opacity: 1;  z-index: 5;  transition: 0.7s; 
+} 
+
+.img-3rdsection:hover .img-3rdsection-items{
+    opacity: 1;  z-index: 6;  transition: 0.7s; 
+} 
+
+.img-3rdsection h3{
+    padding-bottom: 4px; color: aliceblue;
+}
+
+.img-3rdsection p{
+    font-size: 18px; color: #01982e;
+}
+
+/* third section finishes here */
+
+
+.h1-4thsection{
+    text-align: center; margin: 80px 17px 0 0 ; font-size: 40px; padding-top: 60px;
+}
+                   
+.hr-4thsection{
+    background-color: #01982e; width: 60px; height: 3.5px; margin: auto; margin-top: 1px; border: none; 
+}
+
+.forth-section-container{
+    width: 85%; margin: auto; position: absolute; position: relative; margin-top: 0px;
+}
+
+.items-parent-4thsection{
+    overflow: auto; 
+    margin: 2.5% 0 0 0; padding: 30px;
+}
+
+.item-4thsection{
+    float: left;  width: 28.3%; border: solid; border-color: rgb(173, 171, 171); height: 150px; border-width: 1px;  position: relative; border-width: 1.7px;
+}
+
+.item2nd-4thsection{
+    margin: 0px 7.5%; 
+}
+
+.item-4thsection-content{
+   margin: 25px 0 0 8px; opacity: 1; z-index: 2; position: absolute; 
+}
+
+.p-4thsection-carti{
+    text-align: center; margin-left: 95px; padding-top: 10px
+}
+
+.h1-4thsection-frank{
+   margin: 0px 0px 0px 27px; 
+}
+
+.p-4thsection-frank{
+    text-align: center ;  padding-top: 8px; margin-left: 91px; 
+}
+
+.p-4thsection-uzi{
+    text-align: center; margin-left: 74px; padding-top: 8px
+}
+
+.p-4thsection-kanye{
+    text-align: center; margin-left: 73px; padding-top: 8px
+}
+
+.h1-4thsection-kanye{
+    margin: 0px 0px 0px 8px;
+}
+
+.h1-4thsection-theweeknd{
+    margin: 0 0 0 27px;
+}
+
+.p-4thsection-theweeknd{
+    text-align: center; margin-left: 109px; padding-top: 8px
+}
+
+.h1-4thsection-kendrick{
+    margin: 0 0 0 27px;
+}
+
+.p-4thsection-kendrick{
+    text-align: center; margin-left: 120px; padding-top: 8px
+} 
+
+.item-4thsection-content h1{
+    margin-right: 10px; margin-top: 30px; display: inline ; font-weight: 410;  z-index: 2;
+}
+
+.item-4thsection-content i{
+    display: inline; margin: 0px 40px 0px 20px ; font-size: 40px; z-index: 2;
+}
+
+.seconda{
+    margin: auto; margin-top: -65px; 
+}
+
+.item-4thsection::after{
+    position: absolute; content: "";
+    width: 0; height: 0; 
+    top: 0; left: 0; 
+    opacity: 0; background-color: rgb(0, 0, 0);
+}
+
+.item-4thsection:hover::after{
+    width: 100%; height: 100%;
+    opacity: 0.8; background-color: rgb(0, 0, 0);
+    transition: 0.5s;
+}
+
+.item-4thsection-content:hover{
+    position: absolute; opacity: 1; z-index: 3 ; 
+}
+
+.item-4thsection:hover h1 {
+    color: aliceblue; 
+}
+
+.item-4thsection:hover p {
+    color: rgb(143, 143, 143); 
+}
+
+.item-4thsection p {
+    color: rgb(143, 143, 143); font-weight: 350;
+}
+
+/* fourth section finishes here */
+
+.fifth-section-parent{
+    position: relative;
+    height: 100vh; width: 100%;
+    background-color: rgb(247, 247, 247);
+    margin: 120px 0 0 0 ;
+}
+
+.h1-5thsection {
+    position: absolute;
+    top: 55%; left: 28%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+  }
+  
+.hr-5thsection{
+    background-color: #01982e; width: 70px; height: 3.5px ; border: none; margin-left: 5px;
+}
+
+.p-5thsection-1{
+    font-size: 40px; font-weight: lighter; margin-top: 40px; color: rgb(16, 121, 0); font-style: italic;
+}
+
+.i-5thsection{
+    margin-top: 50px;
+}
+
+.p-5thsection-2{
+    color:  rgb(15, 112, 0); display: inline; margin-left: 10px; 
+}
+
+.p-5thsection-3{
+    color: rgb(15, 112, 0) ; display: inline; margin-left: 10px; 
+}
+
+.i-5thsection-2{
+    margin-top: 10px;
+}
+
+.p-5thsection-4{
+    color:  rgb(15, 112, 0); display: inline; margin-left: 10px; 
+}
+
+.i-5thsection-3{
+    margin-top: 10px;
+}
+
+.p-5thsection-5{
+    color: rgb(15, 112, 0); display: inline; margin-left: 10px; 
+}
+
+.i-5thsection-4{
+    margin-top: 10px;
+}
+
+.img-5thsection{
+    display: inline; 
+    position: absolute;
+    top: 55%; left: 151.5%;
+    transform: translate(-50% , -50%);
+}
+
+.i-5thsection-5{
+    display: inline; 
+    position: absolute;
+    top: 112%; left: 146%;
+    transform: translate(-50% , -50%);
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(22, 165, 0); 
+    clip-path: circle(50%);
+}
+
+.i-5thsection-6{
+    display: inline; 
+    position: absolute;
+    top: 112%; left: 151%;
+    transform: translate(-50% , -50%);
+    font-size: 20px;
+    color: #000;
+}
+
+.i-5thsection-7{
+    display: inline; 
+    position: absolute;
+    top: 112%; left: 156%;
+    transform: translate(-50% , -50%);
+    font-size: 20px;
+    color: #000;
+}
+
+.i-5thsection-6:hover , .i-5thsection-7:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgb(22, 165, 0); 
+    clip-path: circle(50%);
+}
+
+/* fifth section finishes here */
+
+
+
+.sixth-section-parent{
+    position: relative;
+    height: 50vh; width: 100%;
+    margin-top: 100px;
+    background-image: url(../img/wp13841277-we-dont-trust-you-wallpapers.jpg);
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-attachment: fixed;
+    z-index: 5;
+}
+
+.overlay-sixth-section{
+    position: absolute; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.1); 
+} 
+
+.sixth-parent-items{
+    font-size: 45px;
+}
+
+.sixth-section-i-parent{
+    position: absolute;
+    content: "";
+    left: 50%; top: 50%;
+    transform: translate(-50% , -50%);
+}
+
+.i-sixth-1{
+    position: absolute;
+    content: "";
+    left: 0%; top: 50%;
+    transform: translate(-1580% , -180%); 
+}  
+
+.sixth-parent-h2-1{
+    color: #01982e;
+    position: absolute;
+    content: "";
+    left: 0%; top: 50%;
+    transform: translate(-770% , -30%); 
+    font-size: 30px;
+}
+
+.i-sixth-2{
+    position: absolute;
+    content: "";
+    left: 0%; top: 50%;
+    transform: translate(-560% , -180%); 
+}  
+
+.sixth-parent-h2-2{
+    color: #01982e;
+    position: absolute;
+    content: "";
+    left: 0%; top: 50%;
+    transform: translate( -290% , -30%); 
+    font-size: 30px;
+}
+
+.i-sixth-3{
+    position: absolute;
+    content: "";
+    left: 0%; top: 50%;
+    transform: translate( 585% , -180%); 
+}  
+
+.sixth-parent-h2-3{
+    color: #01982e;
+    position: absolute;
+    content: "";
+    left: 0%; top: 50%;
+    transform: translate( 250% , -30%); 
+    font-size: 30px;
+}
+
+.i-sixth-4{
+    position: absolute;
+    content: "";
+    left: 0%; top: 50%;
+    transform: translate( 1340% , -180%); 
+}  
+
+.sixth-parent-h2-4{
+    color: #01982e;
+    position: absolute;
+    content: "";
+    left: 0%; top: 50%;
+    transform: translate( 680% , -30%); 
+    font-size: 30px;
+}
+
+.sixth-back-color{
+    position: absolute; height: ;
+}
+
+
+/* sixth section finishes here */
+
+.seventh-parent{
+   position: relative; margin-top: 115px; width: 100%; height: 100vh; background-color: white; 
+}
+
+.h1-7thsection{
+    text-align: center; margin: 80px 0px 0 0 ; font-size: 40px; padding-top: 60px; 
+}
+                   
+.hr-7thsection{
+    background-color: #01982e; width: 60px; height: 4px; margin: auto; margin-top: 7px; border: none; 
+}
+
+.div1-seventh-section{
+    position: relative;
+    width: 350px; height: 350px; border: solid black; color: gray; margin-left: 65px; 
+    margin-top: 60px; float: left; margin-right: 35px; border-width: 0.8px;
+}
+
+.div2-seventh-section{
+    position: relative;
+    width: 350px; height: 350px; border: solid black; color: gray;
+    margin-left: 140px; margin-top: 60px; float: left; margin-right: 35px; border-width: 0.8px;
+}
+
+.div3-seventh-section{
+    position: relative;
+    width: 350px; height: 350px; border: solid black; color: gray;
+    margin-left: 125px; margin-top: 60px; float: left; border-width: 0.8px;
+}
+
+.seventh-section-p{
+    text-align: center; margin-top: 20px; font-size: 25px;
+}
+
+.seventh-circle{
+    width: 100px; height: 100px; border-radius: 50%; border: 2px solid green; background-color: transparent; margin: auto; margin-top: 10px; 
+}
+
+.p1-seventh{
+    text-align: center; margin-top: 14px; font-size: 30px; font-weight: bold;
+}
+
+.p2-seventh{
+    text-align: center; margin-top: 20px; margin-top: -5px;
+}
+
+.div1-seventh-section::after{
+    position: absolute; 
+    content: "";
+    top: 0; 
+    width: 100%; height: 0; 
+    opacity: 0; background-color: rgba(0, 0, 0, 0.3);
+}
+
+.div1-seventh-section:hover::after{
+    width: 100%; height: 100%;
+    opacity: 1; background-color: rgba(0, 0, 0, 0.2);
+    transition: 0.8s;
+}
+
+.div1-seventh-section:hover .seventh-section-p , .div1-seventh-section:hover  .p1-seventh , .div1-seventh-section:hover  .p2-seventh {
+   color: rgb(24, 7, 209);
+}
+
+.div2-seventh-section::after{
+    position: absolute; 
+    content: "";
+    top: 0; 
+    width: 100%; height: 0; 
+    opacity: 0; background-color: rgba(0, 0, 0, 0.2);
+}
+
+.div2-seventh-section:hover::after{
+    width: 100%; height: 100%;
+    opacity: 1; background-color: rgba(0, 0, 0, 0.2);
+    transition: 0.8s;
+}
+
+.div2-seventh-section:hover .seventh-section-p , .div2-seventh-section:hover  .p1-seventh , .div2-seventh-section:hover  .p2-seventh {
+    color: rgb(24, 7, 209);
+ }
+
+.div3-seventh-section::after{
+    position: absolute; 
+    content: "";
+    top: 0; 
+    width: 100%; height: 0; 
+    opacity: 0; background-color: rgba(0, 0, 0, 0.2);
+}
+
+.div3-seventh-section:hover::after{
+    width: 100%; height: 100%;
+    opacity: 1; background-color: rgba(0, 0, 0, 0.2);
+    transition: 0.8s;
+}
+
+.div3-seventh-section:hover .seventh-section-p , .div3-seventh-section:hover  .p1-seventh , .div3-seventh-section:hover  .p2-seventh {
+    color: rgb(19, 6, 165);
+}
+
+.p3-seventh{
+   text-align: center; font-size: 20px; margin-top: 5px;
+}
+
+.p3-seventh-parent{
+    margin-top: 5px; 
+}
+
+.btn-seventh{
+    height: 40px; width: 90px;  margin: 15px 0px 0px 127px ; font-weight: bold; border-radius: 10px; border: none;
+    border-width: 0.5px ; font-size: 17px; background-color: rgb(111, 111, 111); color: white;
+}
+
+/* seventh section finishes here */
+
+.eighth-section-parent{
+    width: 100%; height: 50vh; margin-top: 100px;
+    background-image: url(../img/wp12426992-frank-ocean-4k-wallpapers.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.overlay-eighth-section{
+   position: absolute; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.4); 
+}
+
+.img-eighth{
+    border-radius: 50%; margin: 100px 0px 0px 380px; position: relative;
+}
+
+.h4-eighth-1{
+    margin: 130px 160px 0px 30px; display: inline-block; color: white; font-size: 20px; position: absolute;
+}
+
+.h4-eighth-2{
+    margin: 130px 0px 0 -484px; display: inline-block; color: white; font-size: 20px; position: absolute;
+}
+
+.h6-eighth-1{
+    margin: 165px 160px 0px 48px; display: inline-block; color: white; font-size: 20px; position: absolute;
+}
+
+.h6-eighth-2{
+    margin: 165px 0px 0 -468px; display: inline-block; color: white; font-size: 20px; position: absolute;
+}
+
+/* eighth section finishes here */
+
+.h1-9thsection{
+    text-align: center; margin: 80px 10px 0 0 ; font-size: 40px; padding-top: 60px; 
+}
+                   
+.hr-9thsection{
+    background-color: #01982e; width: 60px; height: 4px; margin: auto; margin-top: 7px; border: none; 
+}
+
+.ninth-section-parent{
+  width: 95%; height: 100vh; margin: auto; 
+}
+
+.ninth-section-divs-parent{
+  height: 100%; position: relative; padding: 10px 19px;  margin: auto; margin-top: 60px;
+} 
+
+.ninth-section-div1{
+  width: 30%; float: left; text-align: center;
+}
+
+.ninth-section-div2{
+  width: 30%; float: left; text-align: center;  margin: 0px 5%;
+}
+
+.ninth-section-div3{
+  width: 30%; float: left; text-align: center;
+}
+
+.img-content-ninth{
+    background-color: rgb(215, 215, 215);
+    width: 75%;
+    margin: auto;
+    position: relative;
+    height: 45%;
+}
+
+.img-content-ninth .ninth-section-img{
+    padding-top: 20px;
+}
+
+
+.ninth-i-parent{
+    position: absolute; 
+    top: 0; right: 0;
+    opacity: 0; visibility: hidden;
+    transition: 0.8s;
+    margin-right: 43.5px; margin-top: 20.7px;
+}
+
+.img-content-ninth:hover .ninth-i-parent{
+  opacity: 1; visibility: visible;
+  margin-right: 43.5px; margin-top: 20.7px;
+  z-index: 2;
+}
+
+.ninth-i-parent-3{
+    position: absolute; 
+    top: 0; right: 0;
+    opacity: 0; visibility: hidden;
+    transition: 0.8s;
+    margin-right: 43px; margin-top: 20.7px;
+}
+
+.img-content-ninth:hover .ninth-i-parent-3{
+  opacity: 1; visibility: visible;
+  margin-right: 43px; margin-top: 20.7px;
+
+}
+
+
+.ninth-i-parent a{
+    display: block;
+    height: 45px; width: 35px; 
+    margin-left: 0; 
+    background-color: rgb(218, 218, 218); 
+}
+
+.ninth-i-parent a i{
+    line-height: 43px; font-size: 27px;
+}
+
+.img-content-ninth::after{
+    position: absolute; content: ""; 
+    top: 0; left: 0;
+    width: 100%; height: 0%;
+    opacity: 0; background-color: rgba(0, 0, 0, 0.2);   
+}
+
+.img-content-ninth:hover::after{
+    width: 100%; height: 100%; opacity: 1; background-color: rgba(0, 0, 0, 0.2);
+    transition: 0.8s;
+}
+
+.info-ninth{
+    margin-top: 5px;
+}
+
+/* ninth section fininshes here */
+
+.last-div{
+    height: 50vh; width: 100%; position: relative; background-color: rgb(218, 218, 218);
+}
+
+.last-div-img{
+    position: absolute; content: "";
+    left: 50%; top: 48%;
+    transform: translate( -52% , -115%);
+}
+
+.last-div-i-parent{
+    position: absolute; content: "";
+    left: 50%; top: 43%;
+    transform: translate( -48% , 30%);
+}
+
+.last-div-icon-1{
+ position: relative; width: 55px; height: 55px; border: none; border-radius: 50%; margin: auto;
+    background-color: white; float: left; margin-right: 20px;
+}
+
+.last-div-icon-1 .i-last-1{
+    position: absolute; margin-top: 12px; margin-left: 17px; color: black;
+}
+
+.last-div-icon-2{
+ position: relative; width: 55px; height: 55px; border: none; border-radius: 50%; margin: auto;
+    background-color: white; float: left; margin-right: 20px;
+}
+
+.last-div-icon-2 .i-last-2{
+    position: absolute; margin-top: 12px; margin-left: 14px; color: black;
+}
+
+.last-div-icon-3{
+    position: relative; width: 55px; height: 55px; border: none; border-radius: 50%; margin: auto;
+       background-color: white; float: left; margin-right: 20px;
+}
+   
+.last-div-icon-3 .i-last-3{
+       position: absolute; margin-top: 11.5px; margin-left: 13.3px; color: black;
+}
+
+.last-div-icon-4{
+    position: relative; width: 55px; height: 55px; border: none; border-radius: 50%; margin: auto;
+       background-color: white; float: left; margin-right: 20px;
+}
+   
+.last-div-icon-4 .i-last-4{
+       position: absolute; margin-top: 11.5px; margin-left: 19px; color: black;
+}
+
+.last-div-p{
+    position: absolute; content: "";
+    left: 50%; top: 68%;
+    transform: translate( -51.5% , 110%);
+}
+
+
+
+
+
+
+
